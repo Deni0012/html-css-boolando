@@ -25,7 +25,7 @@ header {
     align-items: center;
 }
 
-nav button {
+nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
