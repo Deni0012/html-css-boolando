@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Boolando</title>
-       <!-- Foglio di stile -->
-       <link rel="stylesheet" href="css/style.css">
- 
-       <!-- Foglio Font Awesome -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-       <!-- Intestazione del sito -->
-        <header>
-            <div class="top-bar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolando</title>
+    <!-- Foglio di stile -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Foglio Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Intestazione del sito -->
+    <header>
+       <div class="top-bar">
                 <nav>
                     <ul>
                       <li>Donna</li>
@@ -29,108 +29,134 @@
                     <i class="fa-solid fa-bag-shopping"></i>
                 </div>
             </div>
-        </header>
-       <!-- /Intestazione del sito -->
+    </header>
+    <!-- /Intestazione del sito -->
 
-       <!-- Corpo del sito -->
-        <main>
-            <!-- Main section -->
-            <section class="product-grid">
-                <!-- Prodotto 1 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/levis-tshirt.jpg" alt="Levi's" class="default">
-                        <img src="img/levis-tshirt-hover.jpg" alt="Levi's Hover" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">LEVI'S</p>
-                        <p class="name">RELAXED FIT TEE UNISEX</p>
-                        <p class="price"><span class="discount">-20%</span> <span class="current-price"> >14,99 &#8364;</span> <span class="old-price"> >29,99 &#8364;</span></p>
-                    </div>
+    <!-- Corpo del sito -->
+    <main>
+        <!-- Main section -->
+        <div class="products">
+            <!-- Prodotto 1 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/levis-tshirt.jpg" alt="Prodotto 1">
+                    <img class="hover" src="img/levis-tshirt-hover.jpg" alt="Prodotto 1 Hover">
+                    <span class="discount">-50%</span>
+                    <span class="sostenibilità">Sostenibilità</span>
+                    <i class="fa-regular fa-heart"></i>
                 </div>
-                <!-- /Prodotto 1 -->
-                 <!-- Prodotto 2 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/guess.jpg" alt="Guess" class="default">
-                        <img src="img/guess-hover.jpg" alt="Roses TEE" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">GUESS</p>
-                        <p class="name">ROSES TEE</p>
-                        <p class="price"><span class="discount">-30%</span> <span class="current-price"> >20,99 &#8364;</span> <span
-                                class="old-price"> >29,99 &#8364;</span></p>
-                    </div>
+                <div class="info">
+                    <p>LEVI'S</p>
+                    <p class="name">Relaxed Fit Tee Unisex</p>
+                    <span class="prezzo-scontato">14,99&#8364; </span>
+                    <span class="prezzo-originale">29,99&#8364; </span>
                 </div>
-                <!-- /Prodotto 2 -->
-                <!-- Prodotto 3 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/pastello.jpg" alt="Completo Pastello" class="default">
-                        <img src="img/pastello-hover.jpg" alt="Completo Pastello Hover" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">Come Zucchero Filaro</p>
-                        <p class="name">VOGLIA DI COLORI PASTELLO</p>
-                        <p class="price"><span class="discount">-25%</span> <span class="current-price"> >34,99 &#8364;</span> <span
-                                class="old-price"> >46,99 &#8364;</span></p>
-                    </div>
-                </div>
-                <!-- /Prodotto 3 -->
-                <!-- Prodotto 4 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/levis-tshirt-2.jpg" alt="Levi's Tee Unisex" class="default">
-                        <img src="img/levis-tshirt-2-hover.jpg" alt="Levi's Tee Unisex Hover" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">LEVI'S</p>
-                        <p class="name">TEE UNISEX</p>
-                        <p class="price"><span class="discount">-20%</span> <span class="current-price"> >14,99 &#8364;</span> <span
-                                class="old-price"> >29,99 &#8364;</span></p>
-                    </div>
-                </div>
-                <!-- /Prodotto 4 -->
-                <!-- Prodotto 5 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/mila-chic.jpg" alt="Vestito Stripe" class="default">
-                        <img src="img/mila-chic-hover.jpg" alt="Vestito Stripe Hover" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">Maya Deluxe</p>
-                        <p class="name">STRIPE BODICE</p>
-                        <p class="price"><span class="discount">-10%</span> <span class="current-price"> 59,99 &#8364;</span> <span
-                                class="old-price"> >65,99 &#8364;</span></p>
-                    </div>
-                </div>
-                <!-- /Prodotto 5 -->
-                <!-- Prodotto 6 -->
-                <div class="product">
-                    <div class="product-img">
-                        <img src="img/maglione-nero.jpg" alt="Maglione Nero" class="default">
-                        <img src="img/maglione-nero-hover.jpg" alt="Maglione Nero Hover" class="hover">
-                    </div>
-                    <div class="product-info">
-                        <p class="brand">Esprit</p>
-                        <p class="name">MAGLIONE - BLACK</p>
-                        <p class="price"><span class="discount">-15%</span> <span class="current-price"> 39,99 &#8364;</span> <span
-                                class="old-price"> >46,99 &#8364;</span></p>
-                    </div>
-                </div>
-                <!-- /Prodotto 6 -->
-            </section>
-            <!-- /Main section -->
-        </main>
-        <!-- /Corpo del sito -->
+            </div>
+            <!-- /Prodotto 1 -->
 
+            <!-- Prodotto 2 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/guess.jpg" alt="Prodotto 2">
+                    <img class="hover" src="img/guess-hover.jpg" alt="Prodotto 2 Hover">
+                    <span class="discount">-30%</span>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="info">
+                    <p>GUESS</p>
+                    <p class="name">Roses Tee</p>
+                    <span class="prezzo-scontato">20,99&#8364; </span>
+                    <span class="prezzo-originale">29,99&#8364; </span>
+                </div>
+            </div>
+            <!-- /Prodotto 2 -->
+
+            <!-- Prodotto 3 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/pastello.jpg" alt="Prodotto 3">
+                    <img class="hover" src="img/pastello-hover.jpg" alt="Prodotto 3 Hover">
+                    <span class="discount">-20%</span>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="info">
+                    <p>COLORS OF CALIFORNIA</p>
+                    <p class="name">Voglio di colori pastello</p>
+                    <span class="prezzo-scontato">39,99&#8364; </span>
+                    <span class="prezzo-originale">49,99&#8364; </span>
+                </div>
+            </div>
+            <!-- /Prodotto 3 -->
+
+            <!-- Prodotto 4 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/levis-tshirt-2.jpg" alt="Prodotto 4">
+                    <img class="hover" src="img/levis-tshirt-2-hover.jpg" alt="Prodotto 4 Hover">
+                    <span class="discount">-50%</span>
+                    <span class="sostenibilità">Sostenibilità</span>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="info">
+                    <p>LEVI'S</p>
+                    <p class="name">Tee Unisex</p>
+                    <span class="prezzo-scontato">14,99&#8364; </span>
+                    <span class="prezzo-originale">29,99&#8364; </span>
+                </div>
+            </div>
+            <!-- /Prodotto 4 -->
+
+            <!-- Prodotto 5 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/mila-chic.jpg" alt="Prodotto 5">
+                    <img class="hover" src="img/mila-chic-hover.jpg" alt="Prodotto 5 Hover">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="info">
+                    <p>Maya Deluxe</p>
+                    <p class="name">Stripe Bodice</p>
+                    <span class="prezzo-scontato">99,99&#8364; </span>
+                </div>
+            </div>
+            <!-- /Prodotto 5 -->
+
+            <!-- Prodotto 6 -->
+            <div class="product">
+                <div class="image-container">
+                    <img class="default" src="img/maglione-nero.jpg" alt="Prodotto 6">
+                    <img class="hover" src="img/maglione-nero-hover.jpg" alt="Prodotto 6 Hover">
+                    <span class="sostenibilità">Sostenibilità</span>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="info">
+                    <p>Esprit</p>
+                    <p class="name">Maglione - Black</p>
+                    <span class="prezzo-scontato">29,99&#8364; </span>
+                </div>
+            </div>
+            <!-- /Prodotto 6 -->
+        </div>
+        <!-- /Main section -->
+    </main>
+    <!-- /Corpo del sito -->
+
+    <!-- Fine del sito -->
+    <footer>
+        <p>Boolando S.r.l.</p>
+        <p>Informazioni legali | Informativa sulla privacy | Diritto di recesso</p>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+    <!-- /Fine del sito -->
+</body>
+
+</html>
 
 
        
-       <!-- Fine del sito -->
-       <footer></footer>
-       <!-- /Fine del sito -->
 
     
-    </body>
-</html>
