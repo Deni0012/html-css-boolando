@@ -17,17 +17,18 @@
     <header>
        <div class="top-bar">
                 <nav>
-                    <ul>
-                      <li>Donna</li>
-                      <li>Uomo</li>
-                      <li>Bambini</li>
+                    <ul class="d-flex ">
+                      <li><a href="#">Donna</a></li>
+                      <li><a href="#">Uomo</a></li>
+                      <li><a href="#">Bambini</a></li>
                     </ul>
                 </nav>
-                <img src="img/boolean-logo.png" alt="logo" class="logo">     
-                <div class="icone"><i class="fa-solid fa-user"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
+                <a href="#"><img src="img/boolean-logo.png" alt="logo" class="logo"></a>
+                <ul class="icone">
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
             </div>
     </header>
     <!-- /Intestazione del sito -->
@@ -48,7 +49,7 @@
                 <div class="info">
                     <p>LEVI'S</p>
                     <p class="name">Relaxed Fit Tee Unisex</p>
-                    <span class="prezzo-scontato">14,99&#8364; </span>
+                    <strong class="prezzo-scontato">14,99&#8364; </strong>
                     <span class="prezzo-originale">29,99&#8364; </span>
                 </div>
             </div>
@@ -65,7 +66,7 @@
                 <div class="info">
                     <p>GUESS</p>
                     <p class="name">Roses Tee</p>
-                    <span class="prezzo-scontato">20,99&#8364; </span>
+                    <strong class="prezzo-scontato">20,99&#8364; </strong>
                     <span class="prezzo-originale">29,99&#8364; </span>
                 </div>
             </div>
@@ -80,10 +81,10 @@
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="info">
-                    <p>COLORS OF CALIFORNIA</p>
-                    <p class="name">Voglio di colori pastello</p>
-                    <span class="prezzo-scontato">39,99&#8364; </span>
-                    <span class="prezzo-originale">49,99&#8364; </span>
+                    <p>Come Zucchero Filato</p>
+                    <p class="name">Voglia di colori pastello</p>
+                    <strong class="prezzo-scontato">129,99&#8364; </strong>
+                    <span class="prezzo-originale">184,99&#8364; </span>
                 </div>
             </div>
             <!-- /Prodotto 3 -->
@@ -93,6 +94,7 @@
                 <div class="image-container">
                     <img class="default" src="img/levis-tshirt-2.jpg" alt="Prodotto 4">
                     <img class="hover" src="img/levis-tshirt-2-hover.jpg" alt="Prodotto 4 Hover">
+                    <!-- devono essere ul -->
                     <span class="discount">-50%</span>
                     <span class="sostenibilità">Sostenibilità</span>
                     <i class="fa-regular fa-heart"></i>
@@ -100,7 +102,7 @@
                 <div class="info">
                     <p>LEVI'S</p>
                     <p class="name">Tee Unisex</p>
-                    <span class="prezzo-scontato">14,99&#8364; </span>
+                    <strong class="prezzo-scontato">14,99&#8364; </strong>
                     <span class="prezzo-originale">29,99&#8364; </span>
                 </div>
             </div>
@@ -116,7 +118,7 @@
                 <div class="info">
                     <p>Maya Deluxe</p>
                     <p class="name">Stripe Bodice</p>
-                    <span class="prezzo-scontato">99,99&#8364; </span>
+                    <strong class="prezzo-scontato">99,99&#8364; </strong>
                 </div>
             </div>
             <!-- /Prodotto 5 -->
@@ -132,7 +134,7 @@
                 <div class="info">
                     <p>Esprit</p>
                     <p class="name">Maglione - Black</p>
-                    <span class="prezzo-scontato">29,99&#8364; </span>
+                    <strong class="prezzo-scontato">29,99&#8364; </strong>
                 </div>
             </div>
             <!-- /Prodotto 6 -->
@@ -143,12 +145,14 @@
 
     <!-- Fine del sito -->
     <footer>
-        <p>Boolando S.r.l.</p>
-        <p>Informazioni legali | Informativa sulla privacy | Diritto di recesso</p>
-        <div class="social">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
+        <div class="footer-container">
+            <p>Boolando S.r.l.</p>
+            <p>Informazioni legali | Informativa sulla privacy | Diritto di recesso</p>
+            <div class="social">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-twitter"></i>
+            </div>
         </div>
     </footer>
     <!-- /Fine del sito -->
